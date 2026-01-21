@@ -27,14 +27,18 @@ header {
     background-color: var(--cor01);
     color: var(--cor02);
     text-align: center;
+    
 }
 
 header > h1 {
     font-family: var(--font01);
-    font-size: 8em;
+    font-size: 9vmax;
     padding-top: 50px;
     padding-bottom: 5px;
+}
 
+header h1::first-letter  {
+    font-size: 1.2em;
 }
 
 header > p {
@@ -52,7 +56,9 @@ header a {
 main p {
     font-family: var(--font02);
     font-size: 3em;
+    font-weight: normal;
     padding: 5px;
+    font-size: 3vmax;
 }
 
 article {
@@ -80,7 +86,7 @@ article.img02 {
 
 div {
     background-color: rgba(0, 0, 0, 0.445);
-    max-width: 600px;
+    max-width: 500px;
 }
 
 footer {
