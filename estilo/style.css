@@ -35,10 +35,7 @@ header > h1 {
     font-size: 9vmax;
     padding-top: 50px;
     padding-bottom: 5px;
-}
-
-header h1::first-letter  {
-    font-size: 1.2em;
+font-variant: small-caps;
 }
 
 header > p {
@@ -63,7 +60,7 @@ main p {
 
 article {
     background-color: var(--cor02);
-    padding: 60px 30px;
+    padding: 10vh 2vh;
 }
 
 article.img01 {
